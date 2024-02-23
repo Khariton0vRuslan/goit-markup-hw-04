@@ -128,7 +128,7 @@ img{
     color: #404bbf;}
 
 .header-menu-link.current::after{
-    counter-reset: "";
+    content: "";
     position: absolute;
     left: 0;
     bottom: -1px;
